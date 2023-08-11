@@ -20,8 +20,6 @@ body {
   position: sticky;
   top: 0px;
 }
-.app--container {
-}
 
 /* navbar css style  */
 .navbar--container {
@@ -29,7 +27,7 @@ body {
   height: 55px;
   display: flex;
   justify-content: center;
-  background-color: rgb(255, 83, 68);
+  background-color: #448cfffb;
 }
 
 .middle--container {
@@ -38,7 +36,7 @@ body {
 }
 
 .nav--image {
-  height: 24px;
+  height: 20px;
   margin-right: 9px;
   filter: invert(1);
 }
@@ -53,18 +51,17 @@ body {
 
 .place--container {
   width: 471px;
-  height: 168px;
+  height: 150px;
   border-radius: 9px;
   margin: 30px auto;
   display: flex;
   background-color: rgb(242, 236, 236);
   box-shadow: 1px 1px 10px 0px rgba(128, 128, 128, 0.466);
 }
-.left--container {
-}
+
 .left--image {
   width: 126px;
-  height: 168px;
+  height: 150px;
   border-radius: 9px;
 }
 

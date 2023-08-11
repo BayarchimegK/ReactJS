@@ -4,7 +4,7 @@ import Card from "./components/Card";
 import Data from "./data";
 
 
-import world from "./images/world.png";
+
 import pointer from "./images/placeholder.png";
 function App() {
   const dataset = Data.map(myDataFunction);
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="react--app--container">
       <div className="nav--cont--bar">
-        <Header img={world} />
+        <Header/>
       </div>
       <div className="app--container">{dataset}</div>
     </div>
