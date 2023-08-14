@@ -5,9 +5,9 @@
 body {
   box-sizing: border-box;
 }
-.react--app--container {
+.container {
   width: 550px;
-  height: 705px;
+  height: 655px;
   margin: 10px auto;
   background-color: rgb(255, 255, 255);
   overflow-y: auto;
@@ -35,11 +35,6 @@ body {
   display: flex;
 }
 
-.nav--image {
-  height: 20px;
-  margin-right: 9px;
-  filter: invert(1);
-}
 .nav--p {
   font-size: 14px;
   margin-top: 2px;
@@ -49,7 +44,7 @@ body {
 
 /* place js css styling */
 
-.place--container {
+.place--cont {
   width: 471px;
   height: 150px;
   border-radius: 9px;
@@ -65,7 +60,7 @@ body {
   border-radius: 9px;
 }
 
-.right--container {
+.right--cont {
   margin: 6px 17px;
   margin-right: 0px;
   padding-top: 9px;
