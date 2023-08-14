@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Card from "./components/Card";
 import data from "./data";
-import "./index.css";
+import "./App.css";
 import pointer from "./images/placeholder.png";
 function App() {
   //The Map method transforms each object according to the "Card" component.
