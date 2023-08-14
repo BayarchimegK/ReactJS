@@ -1,20 +1,19 @@
-import "./App.css";
 import Header from "./components/Header";
 import Card from "./components/Card";
-import Data from "./data";
-
-
-
+import data from "./data";
+import "./index.css";
 import pointer from "./images/placeholder.png";
 function App() {
-  const dataset = Data.map(myDataFunction);
-  function myDataFunction(elementItems) {
-    return <Card point={pointer} details={elementItems} />;
-  }
+  //The Map method transforms each object according to the "Card" component.
+  //Input of the map method should be a function.
+  const dataset = data.map((elementItems, i) => (
+    <Card key={i} point={pointer} details={elementItems} />
+  ));
+
   return (
-    <div className="react--app--container">
+    <div className="container">
       <div className="nav--cont--bar">
-        <Header/>
+        <Header />
       </div>
       <div className="app--container">{dataset}</div>
     </div>
