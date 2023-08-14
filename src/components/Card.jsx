@@ -2,15 +2,15 @@ import React from "react";
 
 export default function Card(props) {
   return (
-    <div className="place--container">
-      <div className="left--container">
+    <div className="place--cont">
+      <div className="left--cont">
         <img
           src={props.details.imageUrl}
           alt="errod loading"
           className="left--image"
         />
       </div>
-      <div className="right--container">
+      <div className="right--cont">
         <div className="first--location">
           <img src={props.point} alt="" className="location--image" />
           <span className="city--name">{props.details.location}</span>
